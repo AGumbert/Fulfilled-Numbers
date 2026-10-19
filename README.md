@@ -1,6 +1,6 @@
 # Fulfilling-Numbers
 
-Explores the novel concept of a "fulfilling" number, associated with the aliquot sum function from number theory (s(n)). A "fulfilling" number n is equal to its own "fulfillment" function f(n), where f(n) = s(n) plus the summation of f(n) recursively applied to each proper divisor of n (with a base case of f(0) = 0).
+Explores the novel concept of a "fulfilling" number, associated with the aliquot sum function from number theory (s(n)). A "fulfilling" number n is equal to the output of the "fulfillment" function f(n), where f(n) = s(n) plus the summation of f(n) recursively applied to each proper divisor of n (with a base case of f(0) = 0).
 
 In the range \[1, 100000\], the program identifies 4, 10, and 195 as fulfilling numbers. There does not appear to be an obvious pattern in these three fulfilling numbers, contrasting with the pattern among even perfect numbers where each even perfect number is the product of a power of 2 and a Mersenne prime. Interestingly, 195 may be the only odd fulfilling number. If there are no odd perfect numbers in existence, then 195 may represent a unique and unmatched example of an odd number with a meaningful self-referential result from a function related to aliquot sums.
 
