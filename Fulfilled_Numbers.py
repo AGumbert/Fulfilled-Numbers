@@ -6,7 +6,7 @@ import math
 max_num_to_print = 20
 
 # initializes a variable max_num_to_test_for_fulfillment
-# the program will print all fulfilling numbers in the range 
+# the program will print all fulfilled numbers in the range 
 # [1, max_num_to_test_for_fulfillment]
 max_num_to_test_for_fulfillment = 100000
 
@@ -63,9 +63,9 @@ def fulfillment_function(n):
 for i in range(1, max_num_to_print + 1):
     print(str(i) + ": " + str(fulfillment_function(i)))
 
-# print all fulfilling numbers in the range [1, max_num_to_test_for_fulfillment]
+# print all fulfilled numbers in the range [1, max_num_to_test_for_fulfillment]
 for i in range(1, max_num_to_test_for_fulfillment + 1):
     if i == fulfillment_function(i):
-        print(str(i) + " is a fulfilling number.")
+        print(str(i) + " is a fulfilled number.")
 
 
